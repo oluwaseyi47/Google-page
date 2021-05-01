@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 10px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 20px;
+}
+
+main{
+    width: 50%;
+    margin: 1em auto;
+    text-align: center;
+}
+main img{
+    width: 45%;
+}
+
+input{
+    
+    width: 80%;
+    border-radius: 20px;
+   border: 1px solid rgb(236, 236, 236);
+   height: 40px;
+} 
+
+.button-cont{
+    margin-top: 30px;
+}
+button{
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    margin-left: 10px;
+    color: rgb(78, 71, 71);
+    border-radius: 3px;
+}
+button:hover{
+    /* border: 1px solid rgb(197, 194, 194); */
+}
+
+.lang{
+    margin-top: 30px;
+    color: rgb(59, 56, 56);
+}
+.lang a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: blue;
+}
+.lang a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(243, 243, 243);
+    margin-top: 165px;
+    color: rgb(156, 150, 150);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.footer-top {
+    border: 1px solid rgb(236, 236, 236);
+    padding: 0em 1em;
+}
+.left {
+    display: flex
+}
+.footer-buttom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(226, 222, 222);
+}
+.footer-buttom a{
+    text-decoration: none;
+    color: rgb(156, 150, 150);
+}
+.left a{
+    margin-right: 1em;
+}
+
+.right a{
+    margin-right: 1em;
+}
